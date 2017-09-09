@@ -1,0 +1,177 @@
+/* 导航栏修改 */
+.nav{
+	width : 100%;
+	height : 60px;
+}
+
+.nav >img{
+	height : 100%;
+	float : left;
+}
+
+.nav > a{
+	float : left;
+	padding : 20px;
+	margin : 0 10px;
+	color : #7F7F7F;
+	text-decoration : none;
+}
+
+.nav > a:hover{
+	color : white;
+	background-color : #7F7F7F;
+}
+
+.nav > .first{
+	margin-left : 600px;
+}
+/* 轮播图修改 */
+.carousel{
+	position : relative;
+	width : 100%;
+	height : 593px;
+	background-color : blue;
+	overflow : hidden;
+}
+
+.carousel > .train{
+	position : absolute;
+	width: 600%;
+	height : 100%;
+}
+
+.train > img{
+	width : 1260px;
+	height : 100%;
+	float : left
+}
+
+/* 字体 */
+.carousel .abso{
+	position : absolute;
+	left : 320px;
+	top : 200px;
+}
+
+.abso h1{
+	font-size : 40px;
+}
+
+.abso p{
+	margin-top : 100px;
+	margin-left : 155px;
+	font-size : 30px;
+}
+
+.carousel .abso2{
+	left : 1580px;
+}
+
+.carousel .abso3{
+	left : 2840px;
+}
+
+.carousel .abso4{
+	left : 4100px;
+}
+
+
+/* 小圆点设置 */
+.dots{
+	position : absolute;
+	bottom : 10px;
+	left : 550px;
+}
+
+.dots > ul{
+	width : 100%;
+	height : 100%;
+	position : relative;
+}
+
+.dots li{
+	width : 20px;
+	height: 20px;
+	background-color : #614F1E;
+	border-radius : 50%;
+	margin : 10px 20px;
+	float : left;
+	cursor : pointer;
+}
+
+.dots .cur{
+	background-color : #5B7B32;
+}
+
+/* 左右箭头 */
+
+.dir{
+	position: absolute;
+}
+
+.dir .left{
+	position : absolute;
+	top : 250px;
+	width: 100px;
+	height: 100px;
+	background-image : url("./../images/homepage/leftArr.png");
+	background-size: 100%;
+	opacity: 0.3;
+	cursor : pointer;
+}
+
+.dir .left:hover{
+	opacity : 0.7;
+}
+
+.dir .right{
+	position : absolute;
+	width: 100px;
+	height: 100px;
+	top : 250px;
+	left : 1163px;
+	background-image : url("./../images/homepage/rightArr.png");
+	background-size: 100%;
+	opacity: 0.3;
+	cursor : pointer;
+}
+
+.dir .right:hover{
+	opacity : 0.7;
+}
+
+.video {
+	position : relative;
+	width : 100%;
+	height : 658px;
+	background-color : black;
+}
+
+.video > video{
+	width : 100%;
+	height : 658px;
+}
+
+.video > img{
+	position : absolute;
+	top : 0;
+	left : 0;
+	right : 0;
+	bottom : 0;
+	margin : auto;
+	width: 100px;
+	height: 100px;
+	display : none;
+	opacity : 0.5;
+}
+
+.video > img:hover{
+	opacity : 1;
+}
+
+.origin{
+	width : 100%;
+	height : 100%;
+	background-image: url("./../images/homepage/origin.jpg");
+	background-size : 100%;
+}
